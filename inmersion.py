@@ -74,6 +74,7 @@ def analisis_exploratorio():
     plt.ylabel('Total', fontsize=20)
 
 analisis_exploratorio()
+
 # Analizar los datos de las distribuciones e identificar valores atípicos
 print(df_banco.describe())
 
@@ -86,3 +87,4 @@ plt.show()
 # Conclusiones de los histogramas
 print("Conclusión del histograma de sexo:")
 print("El histograma muestra que hay más clientes de sexo masculino que femenino en el dataset.")
+
